@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    <style>
+          #ramiz{
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            padding: 30px;
+            margin: 100px auto;
+
+
+        }
+
+        body{
+            background-image: url(https://images.pexels.com/photos/9726802/pexels-photo-9726802.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+        }
+       #u{
+         margin-top: 20px;
+       }
+       #f{
+         margin-top: 20px;
+       }
+       #n{
+         margin-top: 20px;
+       }
+
+    </style>
+
+    <script>
+        function fm(){
+           var pre=  document.getElementById("p1");
+          pre.innerText = "yes definately";}
+        function fm2(){
+           var pre=  document.getElementById("p2");
+          pre.innerText = "yes i will";}
+          function fm3(){
+           var pre=  document.getElementById("p3");
+          pre.innerText = "yes sure ";}
+
+
+    </script>
+</head>
+<body>
+    <div id="ramiz">
+    <div>
+        <h2>
+            General QUESTIONS
+        </h2>
+    </div>
+    
+    <div id="u" >
+        do u accept the all the mmajor credit cardss
+
+    <button id="p1" onclick="fm()">+</button></div>
+    <div id="f" >
+        do u support local farmers
+        <button id="p2" onclick="fm2()">+</button>
+
+    </div>
+    <div id="n">
+        do u use organic ingredients
+        <button id="p3" onclick="fm3()">+</button>
+        
+
+    </div>
+</div>
+</div>
+</div>
+    
+</body>
+</html>
